@@ -36,9 +36,10 @@ In the Room list screen, immediately after `Copy`, keep the search condition for
 **Steps**
 1. Open the Room list screen.
 2. Enter a value into **Property code** (物件コード).
-3. Confirm that the list is filtered (only matching records are shown).
-4. Perform `Copy` for any visible record on the list (the “Copy” operation available on the Room list screen).
-5. After the copy operation finishes, refresh/reload the Room list screen (or return to the list such that it reloads).
+3. Click **検索 / Search**.
+4. Confirm that the list is filtered (only matching records are shown).
+5. Perform `Copy` for any visible record on the list (the “Copy” operation available on the Room list screen).
+6. After the copy operation finishes, refresh/reload the Room list screen (or return to the list such that it reloads).
 
 **Expected**
 1. The **Property code** input value remains populated with the value entered before `Copy`.
@@ -51,9 +52,10 @@ In the Room list screen, immediately after `Copy`, keep the search condition for
 **Steps**
 1. Open the Room list screen.
 2. Enter a value into **Property name** (物件名).
-3. Confirm that the list is filtered (only matching records are shown).
-4. Perform `Copy` for any visible record on the list (the “Copy” operation available on the Room list screen).
-5. After the copy operation finishes, refresh/reload the Room list screen (or return to the list such that it reloads).
+3. Click **検索 / Search**.
+4. Confirm that the list is filtered (only matching records are shown).
+5. Perform `Copy` for any visible record on the list (the “Copy” operation available on the Room list screen).
+6. After the copy operation finishes, refresh/reload the Room list screen (or return to the list such that it reloads).
 
 **Expected (after fix)**
 1. The **Property name** input value is NOT cleared; it remains populated with the value entered before `Copy`.
@@ -66,9 +68,10 @@ In the Room list screen, immediately after `Copy`, keep the search condition for
 **Steps**
 1. Open the Room list screen.
 2. Enter a value into **Property name Kana** (物件名カナ).
-3. Confirm that the list is filtered (only matching records are shown).
-4. Perform `Copy` for any visible record on the list (the “Copy” operation available on the Room list screen).
-5. After the copy operation finishes, refresh/reload the Room list screen (or return to the list such that it reloads).
+3. Click **検索 / Search**.
+4. Confirm that the list is filtered (only matching records are shown).
+5. Perform `Copy` for any visible record on the list (the “Copy” operation available on the Room list screen).
+6. After the copy operation finishes, refresh/reload the Room list screen (or return to the list such that it reloads).
 
 **Expected (if supported)**
 1. The **Property name Kana** input value is NOT cleared; it remains populated with the value entered before `Copy`.
@@ -81,9 +84,10 @@ In the Room list screen, immediately after `Copy`, keep the search condition for
 **Steps**
 1. Open the Room list screen.
 2. Enter values into **Property code** (物件コード) and **Property name** (物件名) at the same time (multi-condition search).
-3. Confirm that the list is filtered by both conditions.
-4. Perform `Copy` for any visible record on the list.
-5. After the copy operation finishes, refresh/reload the Room list screen (or return to the list such that it reloads).
+3. Click **検索 / Search**.
+4. Confirm that the list is filtered by both conditions.
+5. Perform `Copy` for any visible record on the list.
+6. After the copy operation finishes, refresh/reload the Room list screen (or return to the list such that it reloads).
 
 **Expected (after fix)**
 1. Both **Property code** and **Property name** input values remain populated with the values entered before `Copy`.
@@ -97,9 +101,10 @@ In the Room list screen, immediately after `Copy`, keep the search condition for
 1. Open the Room list screen.
 2. Ensure that all search inputs are empty (no search conditions are applied):
    - Leave **Property code** / **Property name** / **Property name Kana** blank.
-3. Confirm that the list shows all records (or the default unfiltered state).
-4. Perform `Copy` for any visible record on the list.
-5. After the copy operation finishes, refresh/reload the Room list screen.
+3. Click **検索 / Search** (with all inputs empty).
+4. Confirm that the list shows all records (or the default unfiltered state).
+5. Perform `Copy` for any visible record on the list.
+6. After the copy operation finishes, refresh/reload the Room list screen.
 
 **Expected**
 1. All search inputs remain empty (no condition is unexpectedly filled or cleared incorrectly).
@@ -112,11 +117,12 @@ In the Room list screen, immediately after `Copy`, keep the search condition for
 **Steps**
 1. Open the Room list screen.
 2. Enter a value into **Property name** (物件名).
-3. Confirm that the list is filtered.
-4. Perform `Copy` for any visible record.
-5. After the first copy operation finishes, refresh/reload the Room list screen.
-6. Perform `Copy` again for any visible record on the (still filtered) list.
-7. After the second copy operation finishes, refresh/reload the Room list screen again.
+3. Click **検索 / Search**.
+4. Confirm that the list is filtered.
+5. Perform `Copy` for any visible record.
+6. After the first copy operation finishes, refresh/reload the Room list screen.
+7. Perform `Copy` again for any visible record on the (still filtered) list.
+8. After the second copy operation finishes, refresh/reload the Room list screen again.
 
 **Expected (after fix)**
 1. After the first refresh/reload, the **Property name** value remains populated and the list remains filtered.
